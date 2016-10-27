@@ -1,22 +1,25 @@
 /*reset*/
+
 * {
     margin: 0;
     padding: 0;
 }
+
 body {
     background: black;
     color: #0F0;
 }
+
 canvas {
-    position:fixed;
-    z-index:-1;
+    position: fixed;
+    z-index: -1;
     display: block;
     -webkit-filter: blur(5px);
     -webkit-transform: translate3d(0, 0, 0);
 }
-h1{
+
+h1 {
     color: #0F0;
-    
     text-align: center;
     padding: 50px;
 }
