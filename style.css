@@ -8,6 +8,8 @@
 body {
     background: black;
     color: #0F0;
+    
+    font-family: Consolas, monaco, monospace;
 }
 
 canvas {
@@ -19,7 +21,19 @@ canvas {
 }
 
 h1 {
-    color: #0F0;
     text-align: center;
-    padding: 50px;
+    padding: 2em;
+}
+
+h3 {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+blockquote {
+    border-color: #0F0;
+}
+
+small {
+    color: #0F0 !important;
 }
