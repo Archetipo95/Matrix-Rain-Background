@@ -8,7 +8,6 @@
 body {
     background: black;
     color: #0F0;
-    
     font-family: Consolas, monaco, monospace;
 }
 
@@ -36,4 +35,28 @@ blockquote {
 
 small {
     color: #0F0 !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    width: 0px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0F0;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-button {
+    height: 0px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
 }
