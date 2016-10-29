@@ -52,5 +52,7 @@ setInterval(draw, 40);
 
 //refresh the rain when browser is resized
 window.onresize = function () {
-    location.reload();
+    //full screen
+    c.height = window.innerHeight;
+    c.width = window.innerWidth;
 }
