@@ -55,4 +55,13 @@ window.onresize = function () {
     //full screen
     c.height = window.innerHeight;
     c.width = window.innerWidth;
+    //number of columns for the rain
+    var columns = (c.width) / (font_size);
+    //an array of drops - one per column
+    var drops = [];
+    //x below is the x coordinate
+    //1 = y co-ordinate of the drop(same for every drop initially)
+    for (var x = 0; x < columns; x++) {
+        drops[x] = 1;
+    }
 }
