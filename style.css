@@ -9,6 +9,7 @@ body {
     background: black;
     color: #0F0;
     font-family: Consolas, monaco, monospace;
+    background-size: cover;
 }
 
 canvas {
