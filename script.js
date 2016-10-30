@@ -48,7 +48,7 @@ function draw() {
     }
 }
 
-setInterval(draw, 40);
+setInterval(draw, 60);
 
 //refresh the rain when browser is resized
 window.onresize = function () {
