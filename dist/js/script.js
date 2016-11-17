@@ -10,11 +10,11 @@ c.width = window.innerWidth;
 var vectorChar = "アイウエオカキクケコサシスセソガギグゲゴパピプペポ";
 //converting the string into an array of single characters
 vectorChar = vectorChar.split("");
-
+//fonte size
 var font_size = 16;
 //number of columns for the rain
 var columns = (c.width) / (font_size);
-//an array of drops - one per column
+//an array of drops (one per column)
 var drops = [];
 //x below is the x coordinate
 //1 = y co-ordinate of the drop(same for every drop initially)
